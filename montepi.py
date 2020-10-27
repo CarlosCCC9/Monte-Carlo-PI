@@ -14,6 +14,7 @@ n=[1000, 10000, 100000, 1000000]
 
 error=[]
 tiempo=[]
+
 for i in n:
     t1=time.time()
     j= np.random.random((i, 2))   
