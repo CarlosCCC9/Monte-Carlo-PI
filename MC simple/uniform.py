@@ -17,7 +17,7 @@ piv=[]
 
 for i in n:
     t1=time.time()
-    j= np.random.uniform(0,1,(i, 2))#probando con la distribucion exponencial
+    j= np.random.uniform(0,1,(i, 2))#probando con la distribucion uniforme
     z= np.sqrt(j[:,0]*j[:,0]+j[:,1]*j[:,1])
     condi1=z<1
     bb=condi1.sum()
